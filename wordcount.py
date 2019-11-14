@@ -2,8 +2,8 @@ import string
 from collections import Counter
 f = open("mytext.txt", "r")
 tekst = f.read()
-k = tekst.split()
 
+k = tekst.split()
 
 newlines = []
 for item in k:
